@@ -51,7 +51,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text(
           'Distância para a Uniara é de aproximadamente ${Distancia(_currentPosition!.latitude, _currentPosition!.longitude)}',
-          textAlign: TextAlign.center,
         ),
       ),
       body: _currentPosition == null
